@@ -21,9 +21,13 @@ Matel layers的多邊形位置資訊(預設為.csv檔)
 (注 : 此程式包含讓Cell於APR時，使pin始終On track的優化，順序依Strandard cell的matel範圍由大至小排列，以其中TIELOx1為例:)
 ****************
 cell TIELOx1
+
 -1 0
+
 -2 1
+
 0 0
+
 1 1
 ****************
 為了使pin始終On track，在此範例會區分EVEN、ODD兩種Library模式，根據Cell在APR時的位置做判斷修改
